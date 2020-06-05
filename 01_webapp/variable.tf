@@ -24,22 +24,22 @@ variable "container_key" {
 }
 
 variable "access_key" {
-  default = "storagekey"
+  default = "__storagekey__"
 }
 
 variable "storageaccount_name" {
   description = "description"
-  default = "terraformstorageaccount"
+  default = "__terraformstorageaccount__"
 }
 
 variable "azurerm_app_service_plan_name" {
   description = "description"
-  default = "appserviceplanname"
+  default = "__appserviceplanname__"
 }
 
 variable "azurerm_app_service_name" {
   description = "description"
-  default = "appservicename"
+  default = "__appservicename__"
 }
 
 
