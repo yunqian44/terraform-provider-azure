@@ -23,25 +23,6 @@ variable "container_key" {
   default = "terraform.tfstate"
 }
 
-variable "access_key" {
-  default = "__storagekey__"
-}
-
-variable "storageaccount_name" {
-  description = "description"
-  default = "__terraformstorageaccount__"
-}
-
-variable "azurerm_app_service_plan_name" {
-  description = "description"
-  default = "__appserviceplanname__"
-}
-
-variable "azurerm_app_service_name" {
-  description = "description"
-  default = "__appservicename__"
-}
-
 
 
 
