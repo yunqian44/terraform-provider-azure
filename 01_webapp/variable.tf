@@ -11,8 +11,8 @@ variable "resource_group_name" {
 variable "app_service_plan_sku" {
   type = "map"
   default = {
-    tier = "Standard"
-    size = "S1"
+    tier = "Free"
+    size = "F1"
   }
 }
 
