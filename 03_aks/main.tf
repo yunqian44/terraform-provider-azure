@@ -1,9 +1,9 @@
 provider "azuread" {
-  version = "~> 0.7.0"
+  version = "=0.11.0"
 }
 
 provider "azurerm" {
-  version = "~> 1.39.0"
+   version = "=2.0.0"
 }
 
 data "azurerm_resource_group" "rg" {
